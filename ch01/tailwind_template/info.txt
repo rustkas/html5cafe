@@ -1,0 +1,13 @@
+npm install -D tailwindcss postcss autoprefixer
+
+npm install --save-dev parcel
+npm uninstall --save-dev parcel
+
+npm install --save-dev vite@latest
+
+npx tailwindcss init
+
+1> npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+2> npm run dev
+
